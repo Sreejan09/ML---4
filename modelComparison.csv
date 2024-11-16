@@ -1,0 +1,8 @@
+Model_Name,Train Time ,Training loss,Training Accuracy,Test Accuracy,Number Of Parameters
+,,,,,
+VGG (1 block),330,4.7 e-09,100,97.5,328733634
+VGG (3 blocks),337,0.011,100,95,83066370
+VGG (3 blocks) with data augmentation,1068,0.26,95,75,83066370
+Transfer learning using VGG16 with tuning all layers,934,0.58,73,65,41457474
+Transfer learning using VGG16  with tuning final MLP layers,783,4.3 e-09,100,100,26742786
+,,,,,
